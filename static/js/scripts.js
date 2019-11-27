@@ -17,7 +17,7 @@ function searchRecipe(url) {
 
     var html = '';
 
-    html += '<table class="table table-striped">'+
+    html += '<table class="table table-striped table-light">'+
             '  <thead class="thead-dark">'+
             '    <tr>'+
             '      <th scope="col">Image</th>'+
@@ -36,7 +36,7 @@ function searchRecipe(url) {
             for (var i = 0; i < 10; i++) {
 
                     if (typeof(data.data.hits[i].recipe.image) != "undefined") {
-                            img = '<img style="height: 50%" src="'+data.data.hits[i].recipe.image+'">';
+                            img = '<img style="height: 50%; background: white" src="'+data.data.hits[i].recipe.image+'">';
                     } else {img = ''}
 
                     if (typeof(data.data.hits[i].recipe.yield) != "undefined") {

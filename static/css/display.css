@@ -1,16 +1,24 @@
 .backImg {
-    text-align: center;
-    background: white;
-    /* color: white; */
-    background-image: url('/recipeSearch/static/photos/lake_weary.png') center/cover;
+    /* text-align: center; */
+    background: #942c2c;
+    color: white;
+    background: url('../photos/lake_weary.png') center/cover;
     position: relative;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
-}
+} 
 
-/* .backImg {
-
+.header {
+    padding-top: 18%;
+    padding-left: 20%;
 
     
-} */
+}
+
+.center-area {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20%;
+}
+
