@@ -17,7 +17,7 @@ function searchRecipe(url) {
 
     var html = '';
 
-    html += '<table class="table table-striped table-light">'+
+    html += '<table class="table table-responsive table-striped table-light">'+
             '  <thead class="thead-dark">'+
             '    <tr>'+
             '      <th scope="col">Image</th>'+
