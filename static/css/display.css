@@ -21,7 +21,7 @@
     padding-bottom: 20%;
 }
 
-/* for iphone X/R */
+/* for iphone X/R
 @media screen and (max-width: 375px) {
     @media screen and (min-width: 375px) {
 
@@ -40,7 +40,7 @@
         }
 
     }   
-}
+} */
 
 /* Iphone 6/7/8 */
 @media screen and (max-width: 512px) {
@@ -78,7 +78,7 @@
     }
 }
 
-/* For ipad mini */
+/* For ipad mini
 @media screen and (max-width: 768px) {
     @media screen and (min-width: 768px) {
         
@@ -96,9 +96,9 @@
         }
     }
     
-}
+}  */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
 
     @media screen and (min-width: 1024px) {
         .center-area {
@@ -115,5 +115,5 @@
             background-size: 200% 200%;
         }
     }
-}
+} */
 
